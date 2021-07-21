@@ -9,7 +9,6 @@
     "dev": "webpack serve --hot"
   },
   "keywords": [],
-  "author": "Matheus <matheus@horadecodar.com.br> (http://www.horadecodar.com.br/)",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.12.10",
