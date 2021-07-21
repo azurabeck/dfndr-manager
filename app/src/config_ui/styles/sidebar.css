@@ -1,0 +1,49 @@
+
+/* SIDEBAR SETTINGS  */
+.sidebar {  
+    display: flex; flex-direction: column;
+    position: fixed; top: 0; bottom: 0; z-index: 1;
+    width: 250px;
+    background: #051E34; color: #fff; box-shadow: inset -65px -67px 115px -54px #0A253C;
+}  
+.sidebar a { color: #fff; }
+.sidebar .logo-area { 
+    display: flex; align-items: center; justify-content: center; 
+    width: 100%; height: 50px;
+    border-bottom: 1px solid #233754;
+}
+.sidebar .logo-area img { width: 140px; }
+.sidebar .login-area { 
+    display: flex; flex-direction: row; align-items: center; justify-content: flex-start; 
+    width: 100%; height: 40px; padding: 0 24px; margin-bottom: 3px;
+    border-bottom: 1px solid #233754;
+    font-size: 12px; text-transform: capitalize;
+}
+.sidebar .login-area .user-name {
+    width: 100%; padding-left: 10px; margin-right: 30px;
+    border-right: 1px solid #233754;
+}
+
+.sidebar .sidebar-item {
+    display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-start;
+    height: auto; padding: 24px; 
+    border-bottom: 1px solid #233754;
+    font-size: 14px; text-transform: capitalize;
+}
+.sidebar .sidebar-item .prev-sub {
+    width: 100%; max-width: 100%;   
+    text-overflow: ellipsis; overflow: hidden; white-space: nowrap;
+    color: #949494;
+}
+.sidebar .sidebar-item:hover { cursor: pointer; background: #001925; }
+.sidebar .sidebar-item .prev-sub span { margin-right: 5px; font-size: 12px; color: #949494;}
+.sidebar .sidebar-item .submenu  { width: 100%; padding-top: 15px; }
+.sidebar .sidebar-item .submenu .sub-item { width: 100%; padding: 10px 0; font-size: 12px; display: flex; align-items: center; color: #7f858a; }
+.sidebar .sidebar-item .submenu .sub-item:hover { color: #bfbfbf; }
+
+
+.sidebar .sidebar-item .submenu .sub-item svg {
+    width: 25px;  margin-right: 10px;
+    font-size: 16px;
+    color: #36434e;
+}
